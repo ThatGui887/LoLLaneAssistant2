@@ -53,6 +53,8 @@ This project is a simple GUI application designed to simulate a champion selecti
 --Open db/lolchamps.sql in SSMS (File > Open > File) and execute it to create and populate the lolchamps database.
 --Modify the server name in main.py if your instance isn’t named MARCO
 6. **Run the Application: python main.py
+7. **Use Download_icons.py to retrieve Champion Icons:
+  -Change the version of "http://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/" from 15.1.1 to the latest version everytime a new update releases.
 
 ## Usage
 
