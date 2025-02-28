@@ -64,7 +64,9 @@ This project is a simple GUI application designed to simulate a champion selecti
 
 ## Folder Structure
 
-LoLLaneAssistant2/
+## File Structure
+
+LoLLaneAssistant2.0/
 ├── main.py                 Main application script
 ├── db/
 │   └── lolchamps.sql       SQL script to create and populate the lolchamps database
@@ -77,7 +79,7 @@ LoLLaneAssistant2/
 │       │   ├── jungle.png
 │       │   └── top.png
 │       └── Champ_icons/    Folder containing champion icon images (populated separately)
-└── README.md               This README file           
+└── README.md               This README file
 
 ## Contributing
 Contributions are welcome! To contribute:
