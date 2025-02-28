@@ -35,15 +35,16 @@ This project is a simple GUI application designed to simulate a champion selecti
 ## Additional Dependencies
 
 - **ODBC Driver 17 for SQL Server**: Required for `pyodbc` to connect to the SQL Server database.
-- **Custom Lane Icons**: Located in the `Resources/Images/Lane_icons/` directory (included in the repository).
+- **Lane Icons**: Located in the `Resources/Images/Lane_icons/` directory (included in the repository).
+- **Champion Icons**: Located in the `Resources/Images/Champion_icons/` directory (included in the repository).
 - **SQL Server Database**: A database named `lolchamps` with tables `Champions`, `ChampionLanes`, and `Lanes`. A sample script (`lolchamps.sql`) is provided in the repository.
  
 ## Installation
 
-1. **Clone the Repository: git clone https://github.com/your-username/champion-selector.git cd champion-selector
+1. **Clone the Repository: git clone https://github.com/ThatGui887/LoLLaneAssistant2.0.git 
 2. **Ensure Python is Installed: Verify you have Python 3.x installed by running: python --version If not installed, download it from python.org.
-3. **Install Dependencies: Install pyodbc using pip: pip install pyodbc
-4. **Prepare Resources: Ensure the Resources/Images/Lane_icons/ folder contains the necessary PNG files (support.png, adc.png, mid.png, jungle.png, top.png).
+3. **Install Dependencies: Install pyodbc using pip: pip install pyodbc, (pip install requests urllib3 six for downloading champion ioconsd)
+4. **Prepare Resources: Ensure the Resources/Images/Lane_icons/ and  Resources/Images/Champ_icons/ folder contains the necessary PNG files (support.png, adc.png, Yasuo.png, Pantheon.png).
 5. **Set Up SQL Server:
 - **Install SQL Server if not already present (e.g., SQL Server Express from Microsoft).
 --Restore the provided database:
@@ -61,20 +62,20 @@ This project is a simple GUI application designed to simulate a champion selecti
 4. Use the lane buttons (Support, ADC, Mid, Jungle, Top) to filter champions or type in the search bar (search functionality is placeholder-only for now).
 5. Customize or extend the select_champion method in the champ_Select class to implement actual champion selection logic.
 
-## File Structure
 LoLLaneAssistant2.0/
 ├── main.py                 Main application script
 ├── db/
 │   └── lolchamps.sql       SQL script to create and populate the lolchamps database
 ├── Resources/
 │   └── Images/
-│       └── Lane_icons/     Folder containing lane icon images
-│           ├── support.png
-│           ├── adc.png
-│           ├── mid.png
-│           ├── jungle.png
-│           └── top.png
-└── README.md               This README file
+│       ├── Lane_icons/     Folder containing lane icon images
+│       │   ├── support.png
+│       │   ├── adc.png
+│       │   ├── mid.png
+│       │   ├── jungle.png
+│       │   └── top.png
+│       └── Champ_icons/    Folder containing champion icon images (populated separately)
+└── README.md               This README file           
 
 ## Contributing
 Contributions are welcome! To contribute:
@@ -82,7 +83,7 @@ Contributions are welcome! To contribute:
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/your-feature).
 3. Make your changes and commit them (git commit -m "Add your message").
-4, Push to your branch (git push origin feature/your-feature).
+4. Push to your branch (git push origin feature/your-feature).
 5. Open a Pull Request.
 ** Please ensure your code follows PEP 8 style guidelines and includes comments where necessary.
 
