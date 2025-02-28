@@ -41,7 +41,7 @@ This project is a simple GUI application designed to simulate a champion selecti
  
 ## Installation
 
-1. **Clone the Repository: git clone https://github.com/ThatGui887/LoLLaneAssistant2.0.git 
+1. **Clone the Repository: git clone https://github.com/ThatGui887/LoLLaneAssistant2.git 
 2. **Ensure Python is Installed: Verify you have Python 3.x installed by running: python --version If not installed, download it from python.org.
 3. **Install Dependencies: Install pyodbc using pip: pip install pyodbc, (pip install requests urllib3 six for downloading champion ioconsd)
 4. **Prepare Resources: Ensure the Resources/Images/Lane_icons/ and  Resources/Images/Champ_icons/ folder contains the necessary PNG files (support.png, adc.png, Yasuo.png, Pantheon.png).
@@ -62,7 +62,9 @@ This project is a simple GUI application designed to simulate a champion selecti
 4. Use the lane buttons (Support, ADC, Mid, Jungle, Top) to filter champions or type in the search bar (search functionality is placeholder-only for now).
 5. Customize or extend the select_champion method in the champ_Select class to implement actual champion selection logic.
 
-LoLLaneAssistant2.0/
+## Folder Structure
+
+LoLLaneAssistant2/
 ├── main.py                 Main application script
 ├── db/
 │   └── lolchamps.sql       SQL script to create and populate the lolchamps database
