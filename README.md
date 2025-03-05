@@ -113,4 +113,4 @@ Include a database or list of champions.
 Enhance UI with more interactive elements.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details. (Note: If you haven't added a license file yet, you can create one or specify a different license.)
+This project is licensed under the MIT License. See the LICENSE file for details.
